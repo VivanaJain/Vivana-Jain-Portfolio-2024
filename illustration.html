@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Illustration Work</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      color: #333;
+      background-color: #f8f9fa;
+    }
+
+    /* Header */
+    header {
+      z-index: 100;
+      background: linear-gradient(90deg, #4b6cb7, #2c2e32);
+      color: #fff;
+      padding: 5px 20px;
+      position: fixed;
+      width: 100%;
+      height: 55px;
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+    }
+
+    .logo {
+      font-size: 28px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      text-decoration: none;
+      color: #fff;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      font-family: 'Poppins', sans-serif;
+      margin: 7px 10px;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffd700;
+    }
+
+    .dropdown-menu a {
+      font-family: 'Poppins', sans-serif;
+      transition: background 0.3s ease;
+    }
+
+    .dropdown-menu a:hover {
+      background-color: #4b6cb7;
+    }
+
+    /* Branding Section */
+    #branding-work {
+      padding: 40px;
+    }
+
+    #branding-work h2 {
+      font-size: 28px;
+      margin-top: 50px;
+    }
+
+    .branding-details h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+
+    .branding-details p {
+      margin-bottom: 15px;
+    }
+
+    .branding-image, .image-placeholder {
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #999;
+    }
+
+    .branding-image {
+      height: 300px;
+    }
+
+    .image-placeholder img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .image-placeholder {
+      height: 250px; 
+    }
+    /* Navigation Buttons */
+    .nav-buttons a {
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 16px;
+      text-align: center;
+      transition: background-color 0.3s ease;
+      background-color: #4b6cb7;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    .nav-buttons a:hover {
+      background-color: #182848;
+      color: #fff;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      position: sticky;
+      bottom: 0;
+      width: 100%;
+      background-color: #182848;
+      color: #fff;
+      padding: 10px;
+      font-family: 'Roboto', sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="d-flex justify-content-between align-items-center">
+    <a href="index.html" class="logo">VJ</a>
+    <nav class="d-none d-md-flex">
+      <a href="index.html#home">Home</a>
+      <a href="index.html#portfolio">Portfolio</a>
+      <a href="index.html#profile-section">Profile</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <!-- Dropdown for small screens -->
+    <div class="dropdown d-md-none">
+      <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Menu
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="index.html#home">Home</a></li>
+        <li><a class="dropdown-item" href="index.html#portfolio">Portfolio</a></li>
+        <li><a class="dropdown-item" href="index.html#profile-section">Profile</a></li>
+        <li><a class="dropdown-item" href="index.html#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+
+  <!-- Branding Section -->
+  <section id="branding-work" class="container">
+    <h2>Illustration</h2>
+    <div class="row">
+      <!-- Left side content -->
+      <div class="col-lg-8 col-md-7 col-12 branding-details">
+        <h3>JAIPUR TRAVEL BROCHURE</h3>
+        <p>The project brief was to create an eye-catching travel poster that promotes Jaipur, known as the "Pink City," as a must-visit destination.</p>
+        <p>The poster should showcase the vibrant culture, iconic landmarks, and rich heritage of Jaipur. It should evoke a sense of excitement and curiosity, encouraging people to explore the city.</p>
+      </div>
+      <!-- Right side box -->
+      <div class="col-lg-4 col-md-5 col-12 branding-image" 
+       style="background-image: url('illustration\ 1.png'); background-size: contain; background-repeat: no-repeat; background-position: center;">
+      </div>
+    <!-- Bottom images -->
+    <div class="row mt-4 image-grid">
+      <div class="col-lg-4 col-md-6 col-12 mb-3">
+        <div class="image-placeholder">
+          <img src="illustration2.png" alt="Image 1"> 
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12 mb-3">
+        <div class="image-placeholder">
+          <img src="illustration 3.png" alt="Image 2"> 
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12 mb-3">
+        <div class="image-placeholder">
+          <img src="illustration 4.png" alt="Image 3"> 
+        </div>
+      </div>
+    </div>
+    <!-- Navigation Buttons -->
+    <div class="nav-buttons d-flex justify-content-between mt-4">
+      <a href="print.html">Go Back</a>
+      <a href="packaging.html">Go Ahead</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2024 Vivana Jain | All Rights Reserved
+  </footer>
+
+</body>
+</html>
